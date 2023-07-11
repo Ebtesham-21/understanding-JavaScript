@@ -7,10 +7,13 @@
 </head>
 <body>
   <script>
-    var phoneBook = ["Ezaz","Riaz", "Miraz"];
+    var phoneBook = ["Ezaz","Riaz", "Miraz","Abbas"];
+    var sorted = phoneBook.sort();
+    
 
-    for (i = 0; i<phoneBook.length; i++){
-      
+    for (i = 0; i<sorted.length; i++){
+      document.write("<h1>"+(i+1)+ ":" +sorted[i]+ "<br>"+"</h1>");
+
     }
 
    
