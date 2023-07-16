@@ -8,7 +8,7 @@
 </head>
 <body>
   <div class="container  align-self-center">
-  <h1 class="text-center fs-1 fw-bold" id="name">Chris</h1>
+  <h1 class="text-center fw-bold" id="name">Chris</h1>
   <div class="text-center">
     <button onclick="bigger()" class="btn btn-info">Big</button>
     <button onclick="changeColor()"  class="btn btn-info">Change Color</button>
@@ -21,7 +21,7 @@
   </div>
   <script>
     function bigger() {
-      document.getElementById("name").innerHTML = "Chris".fontsize(500);
+      document.getElementById("name").style.fontSize = "200px";
       
     }
 
@@ -30,7 +30,7 @@
     }
 
     function upperCase() {
-      document.getElementById("name").innerHTML = "Chris".toUpperCase();
+      document.getElementById("name").style.textTransform = "uppercase";
     }
 
     function hide() {
